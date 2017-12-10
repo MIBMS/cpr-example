@@ -1,0 +1,16 @@
+﻿  Building Custom Rule C:/Users/Public/Java-Personal-Workspace/cpr-example/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Public/Java-Personal-Workspace/cpr-example/build/CMakeFiles/generate.stamp is up-to-date.
+  example.cpp
+C:\Users\Public\Java-Personal-Workspace\cpr-example\opt\json\src\json.hpp(4693): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+  C:\Users\Public\Java-Personal-Workspace\cpr-example\opt\json\src\json.hpp(4617): note: while compiling class template member function 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,double,std::allocator>::escape_string(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &) noexcept'
+  C:\Users\Public\Java-Personal-Workspace\cpr-example\opt\json\src\json.hpp(4761): note: see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,double,std::allocator>::escape_string(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &) noexcept' being compiled
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\include\type_traits(707): note: see reference to class template instantiation 'nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,double,std::allocator>' being compiled
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\include\type_traits(736): note: see reference to class template instantiation 'std::is_nothrow_constructible<_Ty,nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,double,std::allocator> &&>' being compiled
+          with
+          [
+              _Ty=nlohmann::json
+          ]
+  C:\Users\Public\Java-Personal-Workspace\cpr-example\opt\json\src\json.hpp(7270): note: see reference to class template instantiation 'std::is_nothrow_move_constructible<nlohmann::json>' being compiled
+  example.vcxproj -> C:\Users\Public\Java-Personal-Workspace\cpr-example\build\Debug\example.exe
+  example.vcxproj -> C:/Users/Public/Java-Personal-Workspace/cpr-example/build/Debug/example.pdb (Full PDB)
